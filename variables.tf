@@ -1,9 +1,9 @@
-variable project_name {
+variable "project_name" {
     type = string
     default = "expense"
 }
 
-variable environment {
+variable "environment" {
     type = string
     default = "dev"
 }
